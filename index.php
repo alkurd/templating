@@ -1,3 +1,4 @@
+<?php require('variables.php')?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +8,8 @@
 </head>
 <body>
 
-
-    <?php include('navigtion.php') ?>
-    <?php require('')?>
+    <?php echo $firstName ?> <?php echo $surName ?>
+    <!-- <?php include('navigtion.php') ?> -->
     
     
 </body>
