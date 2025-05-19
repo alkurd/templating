@@ -8,8 +8,11 @@
 </head>
 <body>
 
-    <?php echo $firstName ?> <?php echo $surName ?>
-    <!-- <?php include('navigtion.php') ?> -->
+    <?php echo $firstName ?> <?php echo $surName . "<br>" ?>
+    
+    <?php foreach($typesOfFruits as $fruit){
+        echo $fruit . "<br>" ; 
+    }  ?> 
     
     
 </body>
