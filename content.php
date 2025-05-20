@@ -7,10 +7,5 @@
 </head>
 <body>
 
-
-    <?php include('navigtion.php') ?>
-
-    
-    
 </body>
 </html>

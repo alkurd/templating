@@ -1,19 +1,12 @@
+<?php include ('content.php')?>
 <?php require('variables.php')?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 
-    <?php echo $firstName ?> <?php echo $surName . "<br>" ?>
-    
-    <?php foreach($typesOfFruits as $fruit){
-        echo $fruit . "<br>" ; 
-    }  ?> 
-    
-    
-</body>
-</html>
+
+<?php echo "<header>". $firstName ?> <?php echo $surName . "</header>" ?>
+
+<?php echo "<main>";
+foreach($typesOfFruits as $fruit){
+    echo $fruit . "<br>" ; 
+} echo "</main>"; ?> 
+
+<?php echo $footer ?>
